@@ -1,3 +1,3 @@
 $(document).on("click", ".test" ,function(){
-    console.log("elo")
+    console.log("siema")
 });
