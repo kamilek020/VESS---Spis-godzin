@@ -20,7 +20,7 @@ html,body {
 }
 
 .container.container-products.w-100{
-    min-height: 100vh;
+    min-height: 50vh;
 }
 .container.container-about-us.w-100 {
     min-height: 70vh;
@@ -55,6 +55,20 @@ html,body {
 
 #InputEmail, #InputTemat {
     height: 50px;
+}
+
+.rectangle_product {
+    height: 50vh;
+    width: 50vw;
+    background-color: white;
+    box-shadow: -1px 1px 23px -9px rgba(0, 0, 0, 1);
+}
+
+.zamowienie {
+    width: 10vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: -1px 1px 23px -9px rgba(0, 0, 0, 1);
 }
 
 .footer.w-100{
