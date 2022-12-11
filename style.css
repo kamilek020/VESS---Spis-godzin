@@ -1,16 +1,65 @@
 html,body {
     padding:0;
     margin:0;
-    font-family: "Open Sans";
+    font-family: "Open Sans" !Important;
     height: 100%;
+    background-color: #e1e1e1 !Important;
+    overflow-x: hidden;
 }
 
-.test{
-
-    background-color:#fff;
+.PhotoWithNavbar{
+    background-image: url("images/background.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+.centered-text-on-image.w-100.d-grid.justify-content-center{
+    margin-top: 35vh;
+}
+
+.container.container-products.w-100{
+    min-height: 100vh;
+}
+.container.container-about-us.w-100 {
+    min-height: 70vh;
+}
+.container.contact-form{
+    min-height: 50vh;
+}
+
+.rectangle{
+    height: 270px;
+    width: 50vh;
+    background-color: white;
+    box-shadow: -1px 1px 23px -9px rgba(0, 0, 0, 1);
+}
+
+.container-first-opinions-from-clients.d-flex.col-4.ms-0{
+    width: 400px;
+}
+
+.container.container-opinions-from-clients.d-flex.mt-5{
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.rectangle.d-flex.justify-content-center.pt-4.col-6.col-sm-6{
+    flex-wrap: wrap;
+}
+
+.ms-3.mt-2.me-3{
+    font-size: 0.75em;
+    width: 150px;
+}
+
+#InputEmail, #InputTemat {
+    height: 50px;
+}
+
+.footer.w-100{
+    background-color: black;
+    color: red;
+    position: absolute;
+    bottom: 0;
 }
