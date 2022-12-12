@@ -61,14 +61,14 @@ html,body {
     height: 50vh;
     width: 50vw;
     background-color: white;
-    box-shadow: -1px 1px 23px -9px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 13px -7px rgba(66, 68, 90, 1);
 }
 
 .zamowienie {
     width: 10vw;
     border: 2px solid black;
     border-radius: 5px;
-    box-shadow: -1px 1px 23px -9px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 13px -7px rgba(66, 68, 90, 1);
 }
 
 .footer.w-100{
