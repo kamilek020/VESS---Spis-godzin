@@ -9,7 +9,17 @@ html,body {
 
 .PhotoWithNavbar{
     background-image: url("images/background.jpg");
+    background-attachment: fixed;
     height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Second-Photo{
+    background-image: url("images/background-2.jpg");
+    height: 50%;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,14 +29,27 @@ html,body {
     margin-top: 35vh;
 }
 
-.container.container-products.w-100{
-    min-height: 50vh;
+.container-products.d-flex.justify-content-around.mt-5{
+    flex-wrap: wrap;
+    gap: 2rem;
 }
-.container.container-about-us.w-100 {
+
+.container.container-products.w-100{
+    min-height: 80vh;
+}
+.container-about-us.w-100 {
     min-height: 70vh;
 }
 .container.contact-form{
     min-height: 50vh;
+}
+
+@media only screen and (max-width: 1002px){
+    .container-products.d-flex.justify-content-around.mt-5{
+        flex-direction: column;
+        margin-left:auto;
+        margin-right: auto;
+    }
 }
 
 .rectangle{
