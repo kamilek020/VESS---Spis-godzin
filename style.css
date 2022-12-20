@@ -18,7 +18,7 @@ html,body {
 
 .Second-Photo{
     background-image: url("images/background-2.jpg");
-    height: 50%;
+    height: 80%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,14 +29,11 @@ html,body {
     margin-top: 35vh;
 }
 
-.container-products.d-flex.justify-content-around.mt-5{
+.container-products.d-flex.justify-content-center.mt-5{
     flex-wrap: wrap;
     gap: 2rem;
 }
 
-.container.container-products.w-100{
-    min-height: 80vh;
-}
 .container-about-us.w-100 {
     min-height: 70vh;
 }
@@ -44,12 +41,9 @@ html,body {
     min-height: 50vh;
 }
 
-@media only screen and (max-width: 1002px){
-    .container-products.d-flex.justify-content-around.mt-5{
-        flex-direction: column;
-        margin-left:auto;
-        margin-right: auto;
-    }
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    filter: invert(100%);
 }
 
 .rectangle{
@@ -99,4 +93,14 @@ html,body {
     color: red;
     position: absolute;
     bottom: 0;
+}
+
+.opis-swieczki {
+    font-weight: 300;
+    line-height: 200%;
+}
+
+.opis-LC{
+    font-weight: 300;
+    line-height: 200%;
 }
