@@ -1,3 +1,2 @@
-# LuxuryCandle
+# VESS 
 
-Wstępny projekt strony świeczek DIY
